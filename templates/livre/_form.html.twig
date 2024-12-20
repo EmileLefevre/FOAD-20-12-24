@@ -1,0 +1,7 @@
+{{ form_start(form, { 'enctype': 'multipart/form-data' }) }}
+    {{ form_row(form.title) }}
+    {{ form_row(form.auteur) }}
+    {{ form_row(form.category) }}
+    {{ form_row(form.photoFile) }}
+    <button type="submit">Ajouter</button>
+{{ form_end(form) }}
